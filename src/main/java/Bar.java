@@ -22,11 +22,11 @@ public class Bar {
         ingredient3.ingrAmount = 0;
         drink1.ingredient3 = ingredient1;
 
-        int DrinkCapacity = ingredient1.ingrAmount + ingredient2.ingrAmount + ingredient3.ingrAmount;
+        int drinkCapacity = ingredient1.ingrAmount + ingredient2.ingrAmount + ingredient3.ingrAmount;
 
         System.out.println("Drink: " + drink1.drinkName + "\n" + "Cena: " + drink1.drinkPrice + "zł");
         System.out.println("Czy zawiera alkohol? " + drink1.alcohol);
         System.out.println("Składniki: " + "\n" + ingredient1.ingrName + "\n" + ingredient2.ingrName + "\n" + ingredient3.ingrName);
-        System.out.println("Pojemność: " + DrinkCapacity + "ml");
+        System.out.println("Pojemność: " + drinkCapacity + "ml");
     }
 }
