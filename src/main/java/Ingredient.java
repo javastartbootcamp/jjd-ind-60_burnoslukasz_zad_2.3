@@ -1,4 +1,4 @@
 public class Ingredient {
-    String ingrName;
-    int ingrAmount;
+    String name;
+    int amount;
 }

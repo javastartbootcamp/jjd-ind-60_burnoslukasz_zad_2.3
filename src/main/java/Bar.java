@@ -8,25 +8,25 @@ public class Bar {
         drink1.alcohol = false;
 
         Ingredient ingredient1 = new Ingredient();
-        ingredient1.ingrName = "woda";
-        ingredient1.ingrAmount = 60;
+        ingredient1.name = "woda";
+        ingredient1.amount = 60;
         drink1.ingredient1 = ingredient1;
 
         Ingredient ingredient2 = new Ingredient();
-        ingredient2.ingrName = "sok cytrynowy";
-        ingredient2.ingrAmount = 80;
+        ingredient2.name = "sok cytrynowy";
+        ingredient2.amount = 80;
         drink1.ingredient2 = ingredient1;
 
         Ingredient ingredient3 = new Ingredient();
-        ingredient3.ingrName = "wódka";
-        ingredient3.ingrAmount = 0;
+        ingredient3.name = "wódka";
+        ingredient3.amount = 0;
         drink1.ingredient3 = ingredient1;
 
-        int drinkCapacity = ingredient1.ingrAmount + ingredient2.ingrAmount + ingredient3.ingrAmount;
+        int drinkCapacity = ingredient1.amount + ingredient2.amount + ingredient3.amount;
 
         System.out.println("Drink: " + drink1.drinkName + "\n" + "Cena: " + drink1.drinkPrice + "zł");
         System.out.println("Czy zawiera alkohol? " + drink1.alcohol);
-        System.out.println("Składniki: " + "\n" + ingredient1.ingrName + "\n" + ingredient2.ingrName + "\n" + ingredient3.ingrName);
+        System.out.println("Składniki: " + "\n" + ingredient1.name + "\n" + ingredient2.name + "\n" + ingredient3.name);
         System.out.println("Pojemność: " + drinkCapacity + "ml");
     }
 }
